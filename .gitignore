@@ -1,0 +1,4 @@
+sources/*
+!sources/hello-world
+.src
+build

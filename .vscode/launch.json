@@ -1,0 +1,27 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+      {
+          "name": "C++ Launch",
+          "type": "cppdbg",
+          "request": "launch",
+          "program": "${workspaceRoot}/build/program",
+          "args": [],
+          "stopAtEntry": true,
+          "cwd": "${workspaceRoot}",
+          "environment": [],
+          "preLaunchTask": "build",
+          //"externalConsole": true,
+          "linux": {
+              "MIMode": "gdb"
+          },
+          "osx": {
+              "MIMode": "lldb"
+          },
+          "windows": {
+              "MIMode": "gdb"
+          },
+      },
+      // attach here, which I don't care about
+  ]
+  }
